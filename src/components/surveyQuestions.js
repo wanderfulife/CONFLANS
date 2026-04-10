@@ -7,7 +7,6 @@ export const templateSurveyQuestions = [
         id: "Q1",
         text: "Quel est le lieu de stationnement de votre véhicule ?",
         type: 'freeText',
-        image: "plan.png",
         freeTextPlaceholder: "Indiquer le lieu de stationnement...",
         next: "Q2"
     },
@@ -74,6 +73,7 @@ export const templateSurveyQuestions = [
     {
         id: "Q4a_Conflans",
         text: "Préciser la rue, le quartier ou le lieu remarquable :",
+        image: "plan.png",
         type: 'freeText',
         freeTextPlaceholder: "Rue, quartier ou lieu remarquable...",
         next: "end"
